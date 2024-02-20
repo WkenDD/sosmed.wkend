@@ -19,7 +19,7 @@ html {
 
 @media only screen and (min-width: 769px) {
   html {
-    background-images: url("images/background.png") no-repeat;
+    background-image: url('../images/background.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -29,7 +29,7 @@ html {
 /* Background untuk tampilan perangkat seluler */
 @media only screen and (max-width: 768px) {
   html {
-    background-images: url("images/mobile-background.png") no-repeat;
+    background-image: url('../images/mobile-background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
